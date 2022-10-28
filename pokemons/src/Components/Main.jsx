@@ -56,6 +56,7 @@ const Main=()=>{
                 <div className="right-content">
                    <Pokeinfo data={pokeDex}/>
                 </div>
+                
             </div>
         </>
     )
