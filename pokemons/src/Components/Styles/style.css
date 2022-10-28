@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #FCEEC8;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    display: flex;
+}
+.left-content,.right-content{
+    flex-basis: 50%;
+}
+.left-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,0.5fr));
+    grid-gap:2rem;
+}
