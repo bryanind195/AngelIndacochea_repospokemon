@@ -4,6 +4,7 @@ import Pokeinfo from "./Pokeinfo";
 import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
+
 const Main=()=>{
     const [pokeData,setDatapokemon]=useState([]);
     const [loading,setLoading]=useState(true);
@@ -32,6 +33,7 @@ const Main=()=>{
     }
     useEffect(()=>{
         pokeFun();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[url])
     return(
         <>
