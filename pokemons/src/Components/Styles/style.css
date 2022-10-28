@@ -18,6 +18,16 @@ nav .brand-logo {
     padding: 0;
     
 }
+
+.SearchDiv {
+    width: 200px;
+    padding-top: 10px;
+    margin: 0px auto;
+    background-position: 0%;
+}
+
+
+
 body{
     background-color: #baf0e2;
 }
